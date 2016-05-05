@@ -10,11 +10,12 @@
 		88CDAF931CD05BD10017DE61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CDAF921CD05BD10017DE61 /* main.m */; };
 		88CDAF961CD05BD10017DE61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CDAF951CD05BD10017DE61 /* AppDelegate.m */; };
 		88CDAF991CD05BD10017DE61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CDAF981CD05BD10017DE61 /* ViewController.m */; };
-		88CDAF9C1CD05BD10017DE61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CDAF9A1CD05BD10017DE61 /* Main.storyboard */; };
 		88CDAF9E1CD05BD10017DE61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CDAF9D1CD05BD10017DE61 /* Assets.xcassets */; };
-		88CDAFA11CD05BD10017DE61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CDAF9F1CD05BD10017DE61 /* LaunchScreen.storyboard */; };
 		88CDAFAC1CD05BD10017DE61 /* KBActionSheetViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CDAFAB1CD05BD10017DE61 /* KBActionSheetViewDemoTests.m */; };
 		88CDAFB71CD05BD10017DE61 /* KBActionSheetViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CDAFB61CD05BD10017DE61 /* KBActionSheetViewDemoUITests.m */; };
+		88CDAFC71CD05C650017DE61 /* KBActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CDAFC61CD05C650017DE61 /* KBActionSheetView.m */; };
+		88CDAFC91CD07B780017DE61 /* cell_select_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88CDAFC81CD07B780017DE61 /* cell_select_image@2x.png */; };
+		88CDAFCB1CD0A1CF0017DE61 /* screen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88CDAFCA1CD0A1CF0017DE61 /* screen.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +42,7 @@
 		88CDAF951CD05BD10017DE61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		88CDAF971CD05BD10017DE61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		88CDAF981CD05BD10017DE61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		88CDAF9B1CD05BD10017DE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88CDAF9D1CD05BD10017DE61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		88CDAFA01CD05BD10017DE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88CDAFA21CD05BD10017DE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88CDAFA71CD05BD10017DE61 /* KBActionSheetViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBActionSheetViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CDAFAB1CD05BD10017DE61 /* KBActionSheetViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBActionSheetViewDemoTests.m; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		88CDAFB21CD05BD10017DE61 /* KBActionSheetViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBActionSheetViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CDAFB61CD05BD10017DE61 /* KBActionSheetViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBActionSheetViewDemoUITests.m; sourceTree = "<group>"; };
 		88CDAFB81CD05BD10017DE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88CDAFC51CD05C650017DE61 /* KBActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBActionSheetView.h; sourceTree = "<group>"; };
+		88CDAFC61CD05C650017DE61 /* KBActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBActionSheetView.m; sourceTree = "<group>"; };
+		88CDAFC81CD07B780017DE61 /* cell_select_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell_select_image@2x.png"; sourceTree = "<group>"; };
+		88CDAFCA1CD0A1CF0017DE61 /* screen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screen.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +104,13 @@
 		88CDAF901CD05BD10017DE61 /* KBActionSheetViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				88CDAFCA1CD0A1CF0017DE61 /* screen.gif */,
+				88CDAFC41CD05BE90017DE61 /* KBActionSheetView */,
 				88CDAF941CD05BD10017DE61 /* AppDelegate.h */,
 				88CDAF951CD05BD10017DE61 /* AppDelegate.m */,
 				88CDAF971CD05BD10017DE61 /* ViewController.h */,
 				88CDAF981CD05BD10017DE61 /* ViewController.m */,
-				88CDAF9A1CD05BD10017DE61 /* Main.storyboard */,
 				88CDAF9D1CD05BD10017DE61 /* Assets.xcassets */,
-				88CDAF9F1CD05BD10017DE61 /* LaunchScreen.storyboard */,
 				88CDAFA21CD05BD10017DE61 /* Info.plist */,
 				88CDAF911CD05BD10017DE61 /* Supporting Files */,
 			);
@@ -138,6 +141,16 @@
 				88CDAFB81CD05BD10017DE61 /* Info.plist */,
 			);
 			path = KBActionSheetViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		88CDAFC41CD05BE90017DE61 /* KBActionSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				88CDAFC81CD07B780017DE61 /* cell_select_image@2x.png */,
+				88CDAFC51CD05C650017DE61 /* KBActionSheetView.h */,
+				88CDAFC61CD05C650017DE61 /* KBActionSheetView.m */,
+			);
+			path = KBActionSheetView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88CDAFA11CD05BD10017DE61 /* LaunchScreen.storyboard in Resources */,
+				88CDAFCB1CD0A1CF0017DE61 /* screen.gif in Resources */,
+				88CDAFC91CD07B780017DE61 /* cell_select_image@2x.png in Resources */,
 				88CDAF9E1CD05BD10017DE61 /* Assets.xcassets in Resources */,
-				88CDAF9C1CD05BD10017DE61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88CDAF991CD05BD10017DE61 /* ViewController.m in Sources */,
+				88CDAFC71CD05C650017DE61 /* KBActionSheetView.m in Sources */,
 				88CDAF961CD05BD10017DE61 /* AppDelegate.m in Sources */,
 				88CDAF931CD05BD10017DE61 /* main.m in Sources */,
 			);
@@ -306,25 +320,6 @@
 			targetProxy = 88CDAFB31CD05BD10017DE61 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		88CDAF9A1CD05BD10017DE61 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88CDAF9B1CD05BD10017DE61 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		88CDAF9F1CD05BD10017DE61 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88CDAFA01CD05BD10017DE61 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		88CDAFB91CD05BD10017DE61 /* Debug */ = {
@@ -411,7 +406,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = KBActionSheetViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RT.KBActionSheetViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +419,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = KBActionSheetViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RT.KBActionSheetViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
