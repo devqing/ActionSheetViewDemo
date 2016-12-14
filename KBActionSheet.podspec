@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-      自定义action sheet view
+       循环滚动播放图片,自动播放,手动播放循环滚动播放图片,自动播放,手动播放循环滚动播放图片,自动播放,手动播放循环滚动播放图片,自动播放,手动播放
                    DESC
 
   s.homepage     = "https://github.com/niuniuKobe/ActionSheetViewDemo"
@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = "MIT"
+    s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
