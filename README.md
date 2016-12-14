@@ -8,3 +8,6 @@
     KBActionSheetView *sheet = [KBActionSheetView actionSheetWithTitle:nil buttonTitles:@[@"照相机",@"相册"] redButtonIndex:-1 delegate:self];
     
     [sheet show];
+    
+ pod 引入
+ pod 'KBActionSheet'
