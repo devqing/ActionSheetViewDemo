@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/*1.0.0*/
 @class KBActionSheetView;
 @protocol KBActionSheetViewDelegate <NSObject>
 
