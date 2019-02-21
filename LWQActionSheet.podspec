@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "KBActionSheet"
-  s.version      = "0.0.2"
+  s.name         = "LWQActionSheet"
+  s.version      = "0.0.3"
   s.summary      = "自定义action sheet view"
 
   # This description is used to generate tags and improve search results.
